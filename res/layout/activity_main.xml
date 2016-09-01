@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+
+    <Button
+        android:onClick="test"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试一" />
+     <Button
+        android:onClick="test2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试二" />
+      <Button
+        android:onClick="test3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="测试三" />
+      <TextView
+          android:textColor="#ff238945"
+        android:id="@+id/tv_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="连接信息" />
+    
+    <ListView 
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/lv_device"
+        
+        ></ListView>
+  
+
+</LinearLayout>
